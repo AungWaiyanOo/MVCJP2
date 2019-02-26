@@ -1,0 +1,104 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/*My CSS*/
+/*.load {
+    animation: slide 2s;
+}
+
+.slider {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 70vh;
+    animation: slide 30s infinite;
+}
+
+.content {
+    color: #fff;
+    width: 100%;
+    height: 70vh;
+    background-color:black;
+}
+
+.principal {
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+    .principal h1 {
+        font-size: 70px;
+        margin: 20px;
+    }
+
+    .principal p {
+        font-size: 20px;
+    }
+@keyframes slide {
+    0% {
+        background-image: url('../images/money_dollars_bills_background_surface_65906_1920x1080.jpg');
+    }
+
+    20% {
+        background-image: url('../images/money_dollars_bills_background_surface_65906_1920x1080.jpg');
+    }
+
+    20.01% {
+        background-image: url('../images/Money_Banknotes_Dollars_Euro_520641_1920x1080.jpg');
+    }
+
+    40% {
+        background-image: url('../images/Money_Banknotes_Dollars_Euro_520641_1920x1080.jpg');
+    }
+
+    40.01% {
+        background-image: url('../images/Money_Banknotes_Dollars_100_White_background_512910_1920x1080.jpg');
+    }
+
+    60% {
+        background-image: url('../images/Money_Banknotes_Dollars_100_White_background_512910_1920x1080.jpg');
+    }
+
+    60.01% {
+        background-image: url('../images/money-background-hd_ejolgw1j__F0000.png');
+    }
+
+    80% {
+        background-image: url('../images/money-background-hd_ejolgw1j__F0000.png');
+    }
+
+    80.01% {
+        background-image: url('../images/hundred-dollar-bills-as-background-money-pile-financial-theme-1920x1080-1080p-hd-format_my5h5eil__F0000.png');
+    }
+
+    100% {
+        background-image: url('../images/hundred-dollar-bills-as-background-money-pile-financial-theme-1920x1080-1080p-hd-format_my5h5eil__F0000.png');
+    }
+}*/
