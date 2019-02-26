@@ -24,20 +24,25 @@
 
         @foreach (var item in Model)
         {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Email)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.UserName)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.imoney)
-                </td>
-                <td>
-                    @Html.ActionLink("Edit", "Edit", new { id = item.Id })
-                </td>
-            </tr>
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.imoney)
+            </td>
+            @if (User.Identity.Name == "admin@gmail.com") 
+    {
+
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.Id })
+        </td>
+}
+
+        </tr>
         }
 
     </table>

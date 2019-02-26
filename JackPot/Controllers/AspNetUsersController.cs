@@ -16,7 +16,7 @@ namespace JackPot.Controllers
     public class AspNetUsersController : Controller
     {
         private lkjplotteryEntities db = new lkjplotteryEntities();
-
+        [Authorize]
         // GET: AspNetUsers
         public ActionResult Index()
         {
